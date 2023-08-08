@@ -16,3 +16,9 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+}
