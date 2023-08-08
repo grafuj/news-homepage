@@ -2,8 +2,8 @@
   font-family: "Inter";
 
   src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype'),
-       url('assets/fonts/static/Inter-Bold.ttf') format('truetype'),
-       url('assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+    url('assets/fonts/static/Inter-Bold.ttf') format('truetype'),
+    url('assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
 
 
   /* src: url('fonts/fira/eot/FiraSans-Regular.eot');
@@ -20,5 +20,12 @@
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: right;
+  border: 3px solid red;
+  margin-right: 0px;
+  border-right: 0px;
+  padding-right: 0px;
+}
+
+.nav-element {
+  margin: 1em;
 }
