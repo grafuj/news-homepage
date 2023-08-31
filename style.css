@@ -208,8 +208,6 @@ table {
 
 .limit-img-width {
   max-width: 100%;
-  min-height: 200px;
-  min-width: 500px;
 }
 
 .image-subtext {
@@ -267,7 +265,6 @@ table {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  min-width: 200px;
   margin-bottom: 20px;
 }
 
