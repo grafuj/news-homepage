@@ -157,6 +157,9 @@ table {
   border-radius: 5px;
   /* color: hsl(233, 8%, 79%) */
   color: hsl(236, 13%, 42%);
+  padding-left: 20px;
+  padding-top: 20px;
+  min-width: 820px;
 }
 
 :root:hover {
@@ -167,7 +170,6 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
   margin-bottom: 20px;
   max-height: 50px;
 }
@@ -177,7 +179,6 @@ table {
   font-weight: 900;
   display: flex;
   justify-content: flex-start;
-  margin-left: 20px;
   color: hsl(240, 100%, 5%);
 }
 
@@ -203,7 +204,6 @@ table {
 .image-container {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
 }
 
 .image-with-subtext {
@@ -227,6 +227,7 @@ table {
   max-width: 100%;
   display: flex;
   flex-direction: row;
+  min-height: 150px;
 }
 
 .catchy-title {
@@ -243,7 +244,7 @@ table {
   flex-direction: column;
   justify-content: space-around;
   width: 85%;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .read-more-button {
