@@ -221,6 +221,20 @@ table {
 
 .image-subtext {
   max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.catchy-title {
+  font-weight: bolder;
+  width: 100%;
+  font-size: 50px;
+}
+
+.read-more-subtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .new-items {
