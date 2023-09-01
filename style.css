@@ -171,6 +171,7 @@ table {
   display: flex;
   justify-content: flex-start;
   color: hsl(240, 100%, 5%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nav-element-container {
@@ -272,6 +273,12 @@ table {
   color: hsl(35, 77%, 62%);
   font-size: 40px;
   font-weight: 700;
+}
+
+.bold-titles {
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .hr-separator {
